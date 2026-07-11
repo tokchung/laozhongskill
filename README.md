@@ -28,19 +28,33 @@
 
 不管你会不会用 AI，都能用。
 
-### 方式一：Skill 版（Claude Code，完整体验）★ 推荐
+### 方式一：Skill 版（推荐，完整体验）★
 
-在 Claude Code 中安装，AI 会化身"看见自己"的引导者，带着你一步一步走完全程。
+安装后，AI 会化身"看见自己"的引导者，带着你一步一步走完全程。
 
 ```bash
 npx skills add tokchung/laozhongskill
 ```
 
-安装后在 Claude Code 里输入 `/看见自己` 或直接说"看见自己"，即可开始。
+安装后，在你的 AI 工具里输入 `/看见自己` 或直接说"看见自己"，即可开始。
+
+**前置条件**（装之前确认这三样）：
+1. **Node.js** —— `npx` 命令来自它。没有的话去 [nodejs.org](https://nodejs.org) 下载安装（选 LTS 版）
+2. **git** —— 工具靠它下载代码。没有的话去 [git-scm.com](https://git-scm.com) 安装
+3. **至少一个受支持的 AI 工具** —— 见下方清单
+
+**支持 70+ 主流 AI 工具，一条命令通吃。** 安装工具会自动检测你电脑上装了哪些，然后一次性全部装好，无需为每个平台单独操作。已验证支持（部分）：
+
+> Claude Code · Codex · Cursor · Windsurf · CodeBuddy · Zencoder · Qwen Code · Trae · Continue · Cline · Roo Code · Kilo Code · Goose · Droid · Junie · Lingma · iFlow CLI · Tabnine 等
+
+**常见问题：**
+- `npx: command not found` → 没装 Node.js，先装 Node.js
+- `Cloning repository` 卡住 → 网络问题，确认能访问 github.com
+- 装完在 AI 工具里没反应 → 重启一下 AI 工具，让它重新加载 skill
 
 ### 方式二：知识包（自己拿去用）
 
-如果你不用 Claude Code，我们公开了完整的方法论文档。你可以：
+如果你不用上面那些 AI 工具，我们公开了完整的方法论文档。你可以：
 - 当文档读，跟着走
 - 贴到你自己的 AI 提示词里
 - 拿去做 RAG、做自己的工具
