@@ -49,7 +49,7 @@ npx skills add tokchung/laozhongskill
 
 ### 方式三：公众号版（即将上线）
 
-关注微信公众号「老钟」，直接发消息就能用。开发中。
+关注微信公众号「芝心咨询」，直接发消息就能用。开发中。
 
 ---
 
@@ -65,7 +65,7 @@ npx skills add tokchung/laozhongskill
 
 **老钟（钟涛）** · 芝心咨询创始人 · 专职心理咨询师 · 自媒体口播博主
 
-- 微信公众号：老钟
+- 微信公众号：芝心咨询
 - GitHub：[@tokchung](https://github.com/tokchung)
 
 ---
