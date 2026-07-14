@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "laozhong-kanjian": {
+      "source": "tokchung/laozhongskill",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "436e32a958bd68e01797ff5170911ca37274f41b13b2a6984a22ee31fdde8ba3"
+    },
+    "laozhong-tansuo": {
+      "source": "tokchung/laozhongskill",
+      "sourceType": "github",
+      "skillPath": "laozhong-tansuo/SKILL.md",
+      "computedHash": "1022544fc6dcd7c8df87d7c1b3470f9cbc3dfd0c93c29f470aeb3b961ef2b3bf"
+    }
+  }
+}
